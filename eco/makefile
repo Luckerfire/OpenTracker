@@ -3,11 +3,11 @@ USE_CUDA=0
 USE_BOOST=0
 #0:no-simd;1:sse-Intel;2:neon-TX2;3:neon-Raspberrypi3
 #(comment should not in the same line as the parameter)
-USE_SIMD=1
+USE_SIMD=0
 #USE_OPENMP=1
 #USE_EIGEN=1
 USE_MULTI_THREAD=1
-USE_GTEST=1
+USE_GTEST=0
 USE_VOT_TRAX=1
 
 CAFFE_PATH=/media/elab/sdd/mycodes/caffe
