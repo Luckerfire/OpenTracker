@@ -15,7 +15,7 @@ using namespace eco;
 int main(int argc, char **argv)
 {
     // Database settings
-    string databaseTypes[5] = {"Demo","VOT-2017", "TB-2015", "TLP", "UAV123"};
+    string databaseTypes[0] = {"Demo","VOT-2017", "TB-2015", "TLP", "UAV123"};
     string databaseType = databaseTypes[0];//4];
     // Read from the images ====================================================
     std::vector<float> CenterError;
